@@ -1,0 +1,18 @@
+/* Nest Nav */
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav li {
+  padding: 0.7em;
+  display: inline-block;
+  list-style: none;
+  color: white;
+}
+
+header nav a {
+  color: white;
+}
+/*# sourceMappingURL=nav.css.map */

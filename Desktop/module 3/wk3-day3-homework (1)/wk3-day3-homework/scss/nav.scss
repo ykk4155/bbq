@@ -1,0 +1,18 @@
+/* Nest Nav */
+@import "colors";
+header{
+  nav{
+    ul {
+      display: flex;
+    }
+    li {
+    padding: 0.7em;
+    display: inline-block;
+    list-style: none;
+    color: $three;
+    }
+    a {
+   color: $three;
+    }
+  }
+}
