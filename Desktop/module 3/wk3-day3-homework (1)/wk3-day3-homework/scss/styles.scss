@@ -2,7 +2,6 @@
 @import "./colors.scss";
 @import "./mixins.scss";
 @import "./nav.scss";
-@include button;
 
 /* Nest Main */
 html {
@@ -27,41 +26,32 @@ main {
     border: 1rem solid $three;
 }
 
-section {
-        flex: 1;
-        text-align: center;
-        display: flex;
 
-        #intro-text{
+  #intro-text{
           align-items: center;
           flex-direction: column;
 
-          span {
+  span {
             font-family: 'Sacramento', cursive;
             font-size: 2.5rem;
           }
 
-          h3 {
+  h3 {
             font-size: 2rem;
           }
 
-          .submit-buttton {
+  .submit-buttton {
             @include button;
             margin: 2rem;
           }
         }
 
-       #intro-image{
+  #intro-image{
           width: 50%;
           height: auto;
         }
-    }
     
     footer {
       display: flex;
       padding: 2rem 2rem 2rem 3rem;
     }
-
-
-
-// Mixin or Extend for button
